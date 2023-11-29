@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="serial_port" name="chaohe_imu" type="serial_imu" >
+        <remap from="imu/data" to="/imu_raw" />
+    </node>
+</launch>

@@ -1,0 +1,7 @@
+# udev rule for LSlidar M10
+#
+#SUBSYSTEM=="usb", ACTION=="add", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", MODE="666", SYMLINK+="lslidar", GROUP="dialout"
+
+KERNELS=="2-5:1.0", MODE:="666", SYMLINK+="lslidar", GROUP="dialout"
+
+# Edited by Quan

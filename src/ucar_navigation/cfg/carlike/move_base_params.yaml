@@ -1,0 +1,21 @@
+#当move_base在不活动状态时,是否关掉costmap.
+shutdown_costmaps: false
+#控制器频率
+controller_frequency: 30.0 
+#在空间清理操作执行前,控制器花多长时间等有效控制下发.
+controller_patience: 4
+conservative_reset_dist: 0.0 
+#全局规划操作的执行频率.如果设置为0.0,则全局规划器仅在接收到新的目标点或者局部规划器报告路径堵塞时才会重新执行规划操作.
+planner_frequency: 4.0 
+##在空间清理操作执行前，路径规划器等待多长时间（秒）用来找出一个有效规划。
+planner_patience: 4.0 
+#执行修复机制前,允许振荡的时长.
+oscillation_timeout: 4.0
+#来回运动在多大距离以上不会被认为是振荡.
+oscillation_distance: 0.20
+clearing_rotation_allowed: true
+# local planner - default is trajectory rollout
+base_local_planner: "teb_local_planner/TebLocalPlannerROS"
+base_global_planner: "global_planner/GlobalPlanner"  
+#alternatives: global_planner/GlobalPlanner, carrot_planner/CarrotPlanner,astar_planner/AstarPlanner
+

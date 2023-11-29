@@ -1,0 +1,5 @@
+sensors/wit_motion
+/home/shuangji/my_racecar/devel/.private/wit_ros_imu/cmake.lock /home/shuangji/my_racecar/devel/./cmake.lock
+/home/shuangji/my_racecar/devel/.private/wit_ros_imu/lib/pkgconfig/wit_ros_imu.pc /home/shuangji/my_racecar/devel/lib/pkgconfig/wit_ros_imu.pc
+/home/shuangji/my_racecar/devel/.private/wit_ros_imu/share/wit_ros_imu/cmake/wit_ros_imuConfig.cmake /home/shuangji/my_racecar/devel/share/wit_ros_imu/cmake/wit_ros_imuConfig.cmake
+/home/shuangji/my_racecar/devel/.private/wit_ros_imu/share/wit_ros_imu/cmake/wit_ros_imuConfig-version.cmake /home/shuangji/my_racecar/devel/share/wit_ros_imu/cmake/wit_ros_imuConfig-version.cmake

@@ -1,0 +1,20 @@
+axis_throttle: 1
+axis_steer: 0
+axis_manual_break: 3
+button_enable: 0
+button_max_break: 1
+button_reverse: 2
+button_horn: 3
+button_headlight: 2
+
+throttle_scale: 0.5
+throttle_offset: 1.0
+throttle_deadzone: 0.0
+
+steering_scale: -1.0
+steering_offset: 0
+steering_center_deadzone: 0.005
+
+man_break_scale: 1.0
+man_break_offset: 0.0
+man_break_deadzone: 0.0

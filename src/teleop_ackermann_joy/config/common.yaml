@@ -1,0 +1,5 @@
+rate: 100 # Rate of the main loop in Hz
+max_speed: 2.0 # Max speed in m/s
+max_speed_reverse: -0.5 # Max speed in m/s, when reversing
+max_steering_angle: 0.57 # Max steering angle in radians
+max_break_force: 1.0 # Max break force from 0 to <value>

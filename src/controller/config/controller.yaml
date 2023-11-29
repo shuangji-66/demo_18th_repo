@@ -1,0 +1,6 @@
+input_imu_topic_name: /wit/imu
+input_location_topic_name: /wit/location
+input_trajectory_topic_name: /trajectory
+output_pose_topic_name: /ackermann_cmd
+
+node_rate: 100   # [Herz]

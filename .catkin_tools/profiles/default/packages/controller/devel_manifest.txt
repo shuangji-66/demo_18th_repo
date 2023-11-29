@@ -1,0 +1,6 @@
+controller
+/home/shuangji/my_racecar/devel/.private/controller/cmake.lock /home/shuangji/my_racecar/devel/./cmake.lock
+/home/shuangji/my_racecar/devel/.private/controller/lib/controller/controller /home/shuangji/my_racecar/devel/lib/controller/controller
+/home/shuangji/my_racecar/devel/.private/controller/lib/pkgconfig/controller.pc /home/shuangji/my_racecar/devel/lib/pkgconfig/controller.pc
+/home/shuangji/my_racecar/devel/.private/controller/share/controller/cmake/controllerConfig.cmake /home/shuangji/my_racecar/devel/share/controller/cmake/controllerConfig.cmake
+/home/shuangji/my_racecar/devel/.private/controller/share/controller/cmake/controllerConfig-version.cmake /home/shuangji/my_racecar/devel/share/controller/cmake/controllerConfig-version.cmake

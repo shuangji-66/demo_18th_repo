@@ -1,0 +1,8 @@
+<launch>
+    <node name="imu_zeroing" pkg="imu_zeroing" type="imu_zeroing.py" output="screen">
+        <param name="ignore_count" value="0" />
+        <param name="sample_count" value="100" />
+        <remap from="imu_raw" to="/imu_raw" />
+        <remap from="imu" to="/imu" />
+    </node>
+</launch>

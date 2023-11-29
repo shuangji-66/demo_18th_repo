@@ -1,0 +1,3 @@
+bool horn
+bool headlight
+float32 mechanical_break

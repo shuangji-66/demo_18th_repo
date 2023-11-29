@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/shuangji/my_racecar/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/shuangji/my_racecar/src/controller/include/**",
+        "/home/shuangji/my_racecar/src/sensors/fdilink_ahrs/include/**",
+        "/home/shuangji/my_racecar/src/sensors/lsx10/lslidar_driver/include/**",
+        "/home/shuangji/my_racecar/src/planning/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/shuangji/carla2/PythonAPI/carla/dist/carla-0.9.11-py2.7-linux-x86_64.egg",
+        "/home/shuangji/carla2/PythonAPI/carla/agents"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/shuangji/carla2/PythonAPI/carla/dist/carla-0.9.11-py2.7-linux-x86_64.egg",
+        "/home/shuangji/carla2/PythonAPI/carla/agents"
+    ]
+}

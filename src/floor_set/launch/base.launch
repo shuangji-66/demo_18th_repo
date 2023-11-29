@@ -1,0 +1,6 @@
+<launch>
+  <node name="motor_host" type="car_motor.py" pkg="floor_set" output='screen'/>
+  <node name="contorl_host" type="serial_node.py" pkg="rosserial_python" args="/dev/car_controller" output='screen' />
+  <node name="ackermann_controller" type="ackermann_controller.py" pkg="floor_set" output='screen' />
+</launch>
+

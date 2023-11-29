@@ -1,0 +1,5 @@
+ucar_bringup
+/home/shuangji/my_racecar/devel/.private/ucar_bringup/cmake.lock /home/shuangji/my_racecar/devel/./cmake.lock
+/home/shuangji/my_racecar/devel/.private/ucar_bringup/lib/pkgconfig/ucar_bringup.pc /home/shuangji/my_racecar/devel/lib/pkgconfig/ucar_bringup.pc
+/home/shuangji/my_racecar/devel/.private/ucar_bringup/share/ucar_bringup/cmake/ucar_bringupConfig.cmake /home/shuangji/my_racecar/devel/share/ucar_bringup/cmake/ucar_bringupConfig.cmake
+/home/shuangji/my_racecar/devel/.private/ucar_bringup/share/ucar_bringup/cmake/ucar_bringupConfig-version.cmake /home/shuangji/my_racecar/devel/share/ucar_bringup/cmake/ucar_bringupConfig-version.cmake

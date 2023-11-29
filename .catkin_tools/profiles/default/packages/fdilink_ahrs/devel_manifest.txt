@@ -1,0 +1,8 @@
+sensors/fdilink_ahrs
+/home/shuangji/my_racecar/devel/.private/fdilink_ahrs/cmake.lock /home/shuangji/my_racecar/devel/./cmake.lock
+/home/shuangji/my_racecar/devel/.private/fdilink_ahrs/lib/libcrc_table.so /home/shuangji/my_racecar/devel/lib/libcrc_table.so
+/home/shuangji/my_racecar/devel/.private/fdilink_ahrs/lib/fdilink_ahrs/imu_tf /home/shuangji/my_racecar/devel/lib/fdilink_ahrs/imu_tf
+/home/shuangji/my_racecar/devel/.private/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver /home/shuangji/my_racecar/devel/lib/fdilink_ahrs/ahrs_driver
+/home/shuangji/my_racecar/devel/.private/fdilink_ahrs/lib/pkgconfig/fdilink_ahrs.pc /home/shuangji/my_racecar/devel/lib/pkgconfig/fdilink_ahrs.pc
+/home/shuangji/my_racecar/devel/.private/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig.cmake /home/shuangji/my_racecar/devel/share/fdilink_ahrs/cmake/fdilink_ahrsConfig.cmake
+/home/shuangji/my_racecar/devel/.private/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig-version.cmake /home/shuangji/my_racecar/devel/share/fdilink_ahrs/cmake/fdilink_ahrsConfig-version.cmake

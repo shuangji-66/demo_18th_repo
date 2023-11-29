@@ -1,0 +1,9 @@
+GlobalPlanner:
+  default_tolerance: 0.1
+  visualize_potential: false
+  use_dijkstra: false
+  use_quadratic: true
+  use_grid_path: true
+  lethal_cost: 55
+  cost_factor: 3
+  outline_map: true

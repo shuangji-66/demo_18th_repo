@@ -1,0 +1,11 @@
+<launch>
+    <!-- to start up post processing of sensors-->
+
+    <!-- start imu calibrationu -->
+    <!-- this will remove any drift due to thermal -->
+    <!--<include file="$(find imu_zeroing)/launch/imu_zeroing.launch" />-->
+
+    <!-- Lidar motion distortioin compensate -->
+    <include file="$(find lidar_undistortion)/launch/lidar_undistortion_online.launch" />
+
+</launch>

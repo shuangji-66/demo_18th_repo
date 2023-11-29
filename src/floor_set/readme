@@ -1,0 +1,37 @@
+roscore
+rosrun floor_set car_teleop.py
+rosrun floor_set car_motor.py
+
+car_teleop.py   #发布~/car/vel  
+    node:car_teleop   
+    topic:~/car_vel                         ~/car/vel
+    msg:floor_set/Floor  
+        int64 speed
+        int64 angle
+        int64 headlight
+        int64 horn
+        int64 stop
+
+car_motor.py  #订阅~/car_vel l  控制/dev/motor串口输出
+    node:car_motor
+    Subscriber:~/car/vel
+    调用串口：/dev/motor   9600  n 8 1
+    通讯协议：modbus-rtu    
+    01 06 00 00 08 00 8e 0a
+    01 06 00 00 :  模拟地址 01  功能码 06  输出电压寄存器 0
+    08 00 ： 输出电压值
+            16进制0～fff对应0～10V    
+            代码中 限制最大输出0～5V 对应数值 0～800  
+    8e 0a : 校验位
+    
+car_controler.py      #订阅~/car_vel   控制/dev/car_controler串口输出
+    node:car_controler
+    Subscriber:~/car/vel   
+    调用串口：/dev/car_controler   38400  
+    char 6位  例如：OXAA afdkm
+    OXAA  起始1位；  af  速度值2位  ；dk 角度值2位；m 3个的状态 (headlight：4  horn：2  stop：1)
+   
+    
+    
+    
+    
